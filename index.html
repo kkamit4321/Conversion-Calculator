@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="convert">
+        <div id="left-side">
+            <h3 >Conversion Calculator</h3>
+            <select id="left-select">
+                <option value="km">Kilo Meter</option>
+                <option value="m">Meter</option>
+                <option value="cm">Centi Meter</option>
+                <option value="mm">Mili Meter</option>
+                <option value="nm">Nano Meter</option>
+                <option value="micrometer">Micro Meter</option>
+                <option value="pm">Pico Meter</option>
+                <option value="dm">Deci Meter</option>
+            </select>
+            <input type="number" id="linput" placeholder="km">
+            <br><br>
+        </div>
+        
+        <div id="right-side">
+            <select id="right-select">
+                <option value="km">Kilo Meter</option>
+                <option value="m">Meter</option>
+                <option value="cm">Centi Meter</option>
+                <option value="mm">Mili Meter</option>
+                <option value="nm">Nano Meter</option>
+                <option value="micrometer">Micro Meter</option>
+                <option value="pm">Pico Meter</option>
+                <option value="dm">Deci Meter</option>
+            </select>
+            <input type="number" id="rinput" placeholder="km">
+            <br><br>
+            <div id="my-buttons">
+                <button  id="clear" click="clearInputs()">Clear</button>
+                <button id="swap" click="swapInputs()">Swap</button>
+                <button id="convert" click="convertUnits()">Convert</button>
+            </div>
+        </div>
+   </div>
+   <script src="javascript.js"></script>
+</body>
+</html>

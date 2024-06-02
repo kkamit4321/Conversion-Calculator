@@ -1,0 +1,72 @@
+/* style.css */
+
+/* Basic reset to ensure consistent appearance across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #291212;
+}
+h3{
+    text-align: center;
+}
+.convert {
+    background-color: #a779db;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#left-side, #right-side {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-left: 12px;
+    margin-top: 10px;
+    border: 2px solid #0e0101;
+    border-radius: 4px;
+}
+
+select {
+    align-items: center;
+    margin-left: 12px;
+    width: 92%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #110101;
+    border-radius: 4px;
+}
+
+#my-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #0e1318;
+    color: white;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1364bb;
+}
